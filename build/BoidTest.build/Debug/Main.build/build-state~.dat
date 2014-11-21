@@ -1,0 +1,177 @@
+TMain
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist Main-Info.plist
+cCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o /Users/ikeg/Desktop/BoidTestBeta/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o /Users/ikeg/Desktop/BoidTestBeta/boid.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o /Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+
+N/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004DC1D01500000000001A2920
+t1304547349
+s1714464
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004DEEB8140000000000043360
+t1307490324
+s275296
+
+N/Users/ikeg/Desktop/BoidTestBeta/boid.cpp
+c000000004DB7EA380000000000000634
+t1303898680
+s1588
+i"boid.h"
+i<math.h>
+
+N/Users/ikeg/Desktop/BoidTestBeta/boid.h
+c000000004DB7D11700000000000001CA
+t1303892247
+s458
+i"parameter.h"
+i<GLUI/GLUI.h>
+i"vector3D.h"
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/Main.LinkFileList
+c000000004E17AD36000000000000012A
+t1310174518
+s298
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o
+t2
+s0
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o
+t2
+s0
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app
+t2
+s0
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist
+t2
+s0
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/MacOS/Main
+t2
+s0
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/ikeg/Desktop/BoidTestBeta/main.cpp
+c000000004DB9122A00000000000018FF
+t1303974442
+s6399
+i<stdlib.h>
+i<GLUT/glut.h>
+i<list>
+i<math.h>
+i<time.h>
+i<sys/time.h>
+i<fstream.h>
+i"boid.h"
+i"parameter.h"
+
+N/Users/ikeg/Desktop/BoidTestBeta/parameter.h
+c000000004DB913F200000000000003B7
+t1303974898
+s951
+i<string>
+
+N/Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp
+c000000004DB62DF200000000000009B6
+t1303784946
+s2486
+i"vector3D.h"
+i<iostream>
+
+N/Users/ikeg/Desktop/BoidTestBeta/vector3D.h
+c000000004DB68EAE0000000000000463
+t1303809710
+s1123
+i"parameter.h"
+i<math.h>
+i<iostream>
+
+NMain-Info.plist
+c000000004DB5E4F7000000000000037F
+t1303766263
+s895
+
+CBuild AST from /Users/ikeg/Desktop/BoidTestBeta/boid.cpp
+r0
+
+CBuild AST from /Users/ikeg/Desktop/BoidTestBeta/main.cpp
+r0
+
+CBuild AST from /Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies959ddab4e4c7b341^e6783db6e4c7b341^---0#1#0#--18"Check dependencies
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o /Users/ikeg/Desktop/BoidTestBeta/boid.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s331867318.391062
+e331867318.672662
+r0
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o
+x/Users/ikeg/Desktop/BoidTestBeta/boid.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oerror: can't exec '/Developer/usr/bin/gcc-4.2' (No such file or directory)
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/ikeg/Desktop/BoidTestBeta/boid.cpp98326cb6e4c7b341^9204b9b6e4c7b341^-75"error: can't exec '/Developer/usr/bin/gcc-4.2' (No such file or directory)1(21%IDEActivityLogMessage2@67"Can't exec '/Developer/usr/bin/gcc-4.2' (No such file or directory)-331867318#0#75#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#13"GCC 4.2 Error--0#0#0#-19%DVTDocumentLocation4@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/boid.cpp0000000000000000^1248"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o boid.cpp normal i386 c++ com.apple.compilers.gcc.4_2    cd /Users/ikeg/Desktop/BoidTestBeta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/Debug/include -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/i386 -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Desktop/BoidTestBeta/build/Debug -c /Users/ikeg/Desktop/BoidTestBeta/boid.cpp -o /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o /Users/ikeg/Desktop/BoidTestBeta/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s331867318.390744
+e331867318.572012
+r0
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o
+x/Users/ikeg/Desktop/BoidTestBeta/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oerror: can't exec '/Developer/usr/bin/gcc-4.2' (No such file or directory)
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/ikeg/Desktop/BoidTestBeta/main.cpp253d6cb6e4c7b341^37dd8eb6e4c7b341^-75"error: can't exec '/Developer/usr/bin/gcc-4.2' (No such file or directory)1(21%IDEActivityLogMessage2@67"Can't exec '/Developer/usr/bin/gcc-4.2' (No such file or directory)-331867318#0#75#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#13"GCC 4.2 Error--0#0#0#-19%DVTDocumentLocation4@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/main.cpp0000000000000000^1248"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o main.cpp normal i386 c++ com.apple.compilers.gcc.4_2    cd /Users/ikeg/Desktop/BoidTestBeta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/Debug/include -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/i386 -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Desktop/BoidTestBeta/build/Debug -c /Users/ikeg/Desktop/BoidTestBeta/main.cpp -o /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o /Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s331867318.421932
+e331867319.477668
+r0
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o
+x/Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oerror: can't exec '/Developer/usr/bin/gcc-4.2' (No such file or directory)
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/ikeg/Desktop/BoidTestBeta/vector3D.cppa6616cb6e4c7b341^6ea329b8e4c7b341^-75"error: can't exec '/Developer/usr/bin/gcc-4.2' (No such file or directory)1(21%IDEActivityLogMessage2@67"Can't exec '/Developer/usr/bin/gcc-4.2' (No such file or directory)-331867319#0#75#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#13"GCC 4.2 Error--0#0#0#-19%DVTDocumentLocation4@61"file://localhost/Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp0000000000000000^1264"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o vector3D.cpp normal i386 c++ com.apple.compilers.gcc.4_2    cd /Users/ikeg/Desktop/BoidTestBeta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/Debug/include -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/i386 -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Desktop/BoidTestBeta/build/Debug -c /Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp -o /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o
+
+CLd /Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/MacOS/Main normal i386
+r0
+
+CProcessInfoPlistFile /Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist Main-Info.plist
+s331867318.303508
+e331867318.355133
+r1
+xProcessInfoPlistFile
+x/Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist
+xMain-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection23"Process Main-Info.plist01fa4db6e4c7b341^603c5bb6e4c7b341^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Users/ikeg/Desktop/BoidTestBeta/Main-Info.plist0000000000000000^361"ProcessInfoPlistFile build/Debug/Main.app/Contents/Info.plist Main-Info.plist    cd /Users/ikeg/Desktop/BoidTestBeta    builtin-infoPlistUtility Main-Info.plist -genpkginfo /Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist
+
+CTouch /Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app
+r0
+

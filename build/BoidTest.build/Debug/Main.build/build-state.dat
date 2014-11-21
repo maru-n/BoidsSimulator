@@ -1,0 +1,988 @@
+TMain
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist /Users/ikeg/Dropbox/BoidTestBeta/Main-Info.plist
+cCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/main.o /Users/ikeg/Dropbox/BoidTestBeta/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/boid.o /Users/ikeg/Dropbox/BoidTestBeta/boid.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/vector3D.o /Users/ikeg/Dropbox/BoidTestBeta/vector3D.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app/Contents/MacOS/Main normal x86_64
+cTouch /Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000053FD1960000000000000044C
+t1409096032
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053FD196000000000000001DE
+t1409096032
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c0000000053FD19600000000000268434
+t1409096032
+s2524212
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c0000000053FD19600000000000007D5C
+t1409096032
+s32092
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+c0000000053FD19600000000000020D64
+t1409096032
+s134500
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+c0000000053FD1960000000000001B3B8
+t1409096032
+s111544
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+c0000000053FD19600000000000034FAC
+t1409096032
+s217004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+c0000000053FD1960000000000000CB08
+t1409096032
+s51976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+c0000000053FD1960000000000002C5F4
+t1409096032
+s181748
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+c0000000053FD1960000000000002B9A8
+t1409096032
+s178600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+c0000000053FD19600000000000011EF8
+t1409096032
+s73464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000053FD196000000000000598A8
+t1409096032
+s366760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000053FD19600000000000085C70
+t1409096032
+s547952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053FD1960000000000008B334
+t1409096032
+s570164
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c0000000053FD1960000000000000979C
+t1409096032
+s38812
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+c0000000053FD196000000000000223B4
+t1409096032
+s140212
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+c0000000053FD19600000000000071CA8
+t1409096032
+s466088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+c0000000053FD19600000000000017E1C
+t1409096032
+s97820
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+c0000000053FD1960000000000004F090
+t1409096032
+s323728
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+c0000000053FD1960000000000003AA48
+t1409096032
+s240200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+c0000000053FD196000000000000383CC
+t1409096032
+s230348
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+c0000000053FD1960000000000001B66C
+t1409096032
+s112236
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c0000000053FD19600000000000030448
+t1409096032
+s197704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053FD196000000000000C9E38
+t1409096032
+s826936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c0000000053FD196000000000000135D4
+t1409096032
+s79316
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c0000000053FD196000000000000394B0
+t1409096032
+s234672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000053FD1961000000000000BB7C
+t1409096033
+s47996
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+c0000000053FD196100000000000211A0
+t1409096033
+s135584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+c0000000053FD19610000000000005F00
+t1409096033
+s24320
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
+c0000000053FD196400000000000022C4
+t1409096036
+s8900
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+c0000000053FD1964000000000000681C
+t1409096036
+s26652
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.A.dylib
+c0000000053FD19640000000000014EF8
+t1409096036
+s85752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libstdc++.dylib
+c0000000053FD196400000000000A2A44
+t1409096036
+s666180
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+c0000000053FD19640000000000004734
+t1409096036
+s18228
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+c0000000053FD1964000000000000FC6C
+t1409096036
+s64620
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+c0000000053FD1964000000000000F6A0
+t1409096036
+s63136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+c0000000053FD19640000000000006254
+t1409096036
+s25172
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+c0000000053FD1964000000000000E0F8
+t1409096036
+s57592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+c0000000053FD1964000000000000D6DC
+t1409096036
+s55004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+c0000000053FD19640000000000006308
+t1409096036
+s25352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+c0000000053FD19640000000000004050
+t1409096036
+s16464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+c0000000053FD19640000000000008570
+t1409096036
+s34160
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+c0000000053FD19640000000000005EA0
+t1409096036
+s24224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+c0000000053FD19640000000000005FAC
+t1409096036
+s24492
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+c0000000053FD19640000000000004440
+t1409096036
+s17472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+c0000000053FD1964000000000000AA28
+t1409096036
+s43560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+c0000000053FD19640000000000003E2C
+t1409096036
+s15916
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+c0000000053FD19640000000000030B04
+t1409096036
+s199428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+c0000000053FD19640000000000005E54
+t1409096036
+s24148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+c0000000053FD19640000000000006A90
+t1409096036
+s27280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+c0000000053FD196400000000000178AC
+t1409096036
+s96428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+c0000000053FD1964000000000001ADC8
+t1409096036
+s110024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+c0000000053FD1964000000000001028C
+t1409096036
+s66188
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+c0000000053FD19640000000000008800
+t1409096036
+s34816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+c0000000053FD19640000000000011090
+t1409096036
+s69776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+c0000000053FD1964000000000000882C
+t1409096036
+s34860
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+c0000000053FD196400000000000067AC
+t1409096036
+s26540
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+c0000000053FD19640000000000008DEC
+t1409096036
+s36332
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+c0000000053FD19640000000000004C08
+t1409096036
+s19464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+c0000000053FD19640000000000002428
+t1409096036
+s9256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+c0000000053FD1964000000000000439C
+t1409096036
+s17308
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+c0000000053FD19640000000000006768
+t1409096036
+s26472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+c0000000053FD196400000000000172F4
+t1409096036
+s94964
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+c0000000053FD196B0000000000001770
+t1409096043
+s6000
+
+N/System/Library/Frameworks/GLUT.framework/GLUT
+c0000000050A6693200000000000FFF10
+t1353083186
+s1048336
+
+N/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004B489326000000000000578C
+t1263047462
+s22412
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000052409C22000000000002DAD0
+t1379965986
+s187088
+
+N/Users/ikeg/Desktop/BoidTestBeta/boid.cpp
+c000000004DB7EA380000000000000634
+t1303898680
+s1588
+i"boid.h"
+i<math.h>
+
+N/Users/ikeg/Desktop/BoidTestBeta/boid.h
+c000000004DB7D11700000000000001CA
+t1303892247
+s458
+i"parameter.h"
+i<GLUI/GLUI.h>
+i"vector3D.h"
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/Main.LinkFileList
+c000000004E17AD36000000000000012A
+t1310174518
+s298
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o
+t2
+s0
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o
+t1310180684
+s52248
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app
+t1310174518
+s102
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist
+t1310174518
+s1216
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/MacOS/Main
+t2
+s0
+
+N/Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/PkgInfo
+t1310174518
+s8
+
+N/Users/ikeg/Desktop/BoidTestBeta/main.cpp
+c000000004DB9122A00000000000018FF
+t1303974442
+s6399
+i<stdlib.h>
+i<GLUT/glut.h>
+i<list>
+i<math.h>
+i<time.h>
+i<sys/time.h>
+i<fstream.h>
+i"boid.h"
+i"parameter.h"
+
+N/Users/ikeg/Desktop/BoidTestBeta/parameter.h
+c000000004DB913F200000000000003B7
+t1303974898
+s951
+i<string>
+
+N/Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp
+c000000004DB62DF200000000000009B6
+t1303784946
+s2486
+i"vector3D.h"
+i<iostream>
+
+N/Users/ikeg/Desktop/BoidTestBeta/vector3D.h
+c000000004DB68EAE0000000000000463
+t1303809710
+s1123
+i"parameter.h"
+i<math.h>
+i<iostream>
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp
+c000000004DB7EA380000000000000634
+t1303898680
+s1588
+i"boid.h"
+i<math.h>
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.h
+c000000004DB7D11700000000000001CA
+t1303892247
+s458
+i"parameter.h"
+i<GLUI/GLUI.h>
+i"vector3D.h"
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/Main.LinkFileList
+c000000004F65A1DD000000000000014B
+t1332060637
+s331
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o
+t2
+s0
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o
+t1310180684
+s52248
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/Debug/Main.app
+t1310174518
+s102
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist
+t1310174518
+s1216
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/Debug/Main.app/Contents/MacOS/Main
+t2
+s0
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/Debug/Main.app/Contents/PkgInfo
+t1310174518
+s8
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp
+c000000004DB9122A00000000000018FF
+t1303974442
+s6399
+i<stdlib.h>
+i<GLUT/glut.h>
+i<list>
+i<math.h>
+i<time.h>
+i<sys/time.h>
+i<fstream.h>
+i"boid.h"
+i"parameter.h"
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/parameter.h
+c000000004DB913F200000000000003B7
+t1303974898
+s951
+i<string>
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/vector3D.cpp
+c000000004DB62DF200000000000009B6
+t1303784946
+s2486
+i"vector3D.h"
+i<iostream>
+
+N/Users/ikeg/Desktop/temporalFD/BoidTestBeta/vector3D.h
+c000000004DB68EAE0000000000000463
+t1303809710
+s1123
+i"parameter.h"
+i<math.h>
+i<iostream>
+
+N/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h
+c00000000472D566D00000000000171AF
+t1194153581
+s94639
+
+N/Users/ikeg/Dropbox/BoidTestBeta/Main-Info.plist
+c000000004DB5E4F7000000000000037F
+t1303766263
+s895
+
+N/Users/ikeg/Dropbox/BoidTestBeta/boid.cpp
+c00000000546677340000000000000635
+t1416001332
+s1589
+
+N/Users/ikeg/Dropbox/BoidTestBeta/boid.h
+c000000005462849A000000000000020E
+t1415742618
+s526
+
+N/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/Main.LinkFileList
+c0000000053B10C1B0000000000000130
+t1404111899
+s304
+
+N/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/boid.o
+t1416539305
+s38368
+
+N/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/main.o
+t1416539305
+s79276
+
+N/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/vector3D.o
+t1416539305
+s60516
+
+N/Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app
+t1416539280
+s102
+
+N/Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist
+t1310174518
+s1216
+
+N/Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app/Contents/MacOS/Main
+t1416539305
+s33040
+
+N/Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app/Contents/PkgInfo
+t1310174518
+s8
+
+N/Users/ikeg/Dropbox/BoidTestBeta/main.cpp
+c00000000546D80F400000000000019DF
+t1416462580
+s6623
+
+N/Users/ikeg/Dropbox/BoidTestBeta/parameter.h
+c00000000546EACA900000000000003D7
+t1416539305
+s983
+
+N/Users/ikeg/Dropbox/BoidTestBeta/vector3D.cpp
+c000000005462888100000000000009BE
+t1415743617
+s2494
+
+N/Users/ikeg/Dropbox/BoidTestBeta/vector3D.h
+c000000004DB68EAE0000000000000463
+t1303809710
+s1123
+
+N/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+NMain-Info.plist
+c000000004DB5E4F7000000000000037F
+t1303766263
+s895
+
+CBuild AST from /Users/ikeg/Desktop/BoidTestBeta/boid.cpp
+r0
+
+CBuild AST from /Users/ikeg/Desktop/BoidTestBeta/main.cpp
+r0
+
+CBuild AST from /Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp
+r0
+
+CBuild AST from /Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp
+r0
+
+CBuild AST from /Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp
+r0
+
+CBuild AST from /Users/ikeg/Desktop/temporalFD/BoidTestBeta/vector3D.cpp
+r0
+
+CBuild AST from /Users/ikeg/Dropbox/BoidTestBeta/boid.cpp
+r0
+
+CBuild AST from /Users/ikeg/Dropbox/BoidTestBeta/main.cpp
+r0
+
+CBuild AST from /Users/ikeg/Dropbox/BoidTestBeta/vector3D.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0d372c29e41eba41^eacd3029e41eba41^---0#1#1#--18"Check dependencies36"DAE6BCDD-264B-420B-88B2-748153FE9247-
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o /Users/ikeg/Desktop/BoidTestBeta/boid.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s331871494.994680
+e331871495.168087
+r0
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o
+x/Users/ikeg/Desktop/BoidTestBeta/boid.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+odyld: Library not loaded: @executable_path/libllvmgcc.dylib
+o  Referenced from: /Developer/usr/llvm-gcc-4.2/libexec/gcc/i686-apple-darwin10/4.2.1/cc1plus
+o  Reason: image not found
+ogcc-4.2: Internal error: Trace/BPT trap (program cc1plus)
+oPlease submit a full bug report.
+oSee <URL:http://developer.apple.com/bugreporter> for instructions.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/ikeg/Desktop/BoidTestBeta/boid.cpp30bcfe06f5c7b341^7a002b07f5c7b341^-337"dyld: Library not loaded: @executable_path/libllvmgcc.dylib  Referenced from: /Developer/usr/llvm-gcc-4.2/libexec/gcc/i686-apple-darwin10/4.2.1/cc1plus  Reason: image not foundgcc-4.2: Internal error: Trace/BPT trap (program cc1plus)Please submit a full bug report.See <URL:http://developer.apple.com/bugreporter> for instructions.-0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/boid.cpp0000000000000000^1248"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o boid.cpp normal i386 c++ com.apple.compilers.gcc.4_2    cd /Users/ikeg/Desktop/BoidTestBeta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/Debug/include -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/i386 -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Desktop/BoidTestBeta/build/Debug -c /Users/ikeg/Desktop/BoidTestBeta/boid.cpp -o /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o /Users/ikeg/Desktop/BoidTestBeta/boid.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s334429456.398103
+e334429456.654309
+r0
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o
+x/Users/ikeg/Desktop/BoidTestBeta/boid.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/ikeg/Desktop/BoidTestBeta/boid.cpp:10:
+o/Users/ikeg/Desktop/BoidTestBeta/boid.h:14:23: error: GLUI/GLUI.h: No such file or directory
+o/Users/ikeg/Desktop/BoidTestBeta/boid.cpp: In member function 'void Boid::draw()':
+o/Users/ikeg/Desktop/BoidTestBeta/boid.cpp:61: error: 'GL_TRIANGLES' was not declared in this scope
+o/Users/ikeg/Desktop/BoidTestBeta/boid.cpp:61: error: 'glBegin' was not declared in this scope
+o/Users/ikeg/Desktop/BoidTestBeta/boid.cpp:62: error: 'glVertex3d' was not declared in this scope
+o/Users/ikeg/Desktop/BoidTestBeta/boid.cpp:65: error: 'glEnd' was not declared in this scope
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/ikeg/Desktop/BoidTestBeta/boid.cppe10c6610fdeeb341^db6fa910fdeeb341^-626"In file included from /Users/ikeg/Desktop/BoidTestBeta/boid.cpp:10:/Users/ikeg/Desktop/BoidTestBeta/boid.h:14:23: error: GLUI/GLUI.h: No such file or directory/Users/ikeg/Desktop/BoidTestBeta/boid.cpp: In member function 'void Boid::draw()':/Users/ikeg/Desktop/BoidTestBeta/boid.cpp:61: error: 'GL_TRIANGLES' was not declared in this scope/Users/ikeg/Desktop/BoidTestBeta/boid.cpp:61: error: 'glBegin' was not declared in this scope/Users/ikeg/Desktop/BoidTestBeta/boid.cpp:62: error: 'glVertex3d' was not declared in this scope/Users/ikeg/Desktop/BoidTestBeta/boid.cpp:65: error: 'glEnd' was not declared in this scope5(21%IDEActivityLogMessage2@38"GLUI/GLUI.h: No such file or directory-334429456#68#93#2(36%IDEActivityLogHeaderInclusionMessage3@63"In file included from /Users/ikeg/Desktop/BoidTestBeta/boid.cpp-334429456#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/boid.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---2@81"GLUI/GLUI.h: No such file or directory in /Users/ikeg/Desktop/BoidTestBeta/boid.h-334429456#18446744073709551615#0#-0#-4@55"file://localhost/Users/ikeg/Desktop/BoidTestBeta/boid.h0000000000000000^13#18446744073709551615#13#18446744073709551615#18446744073709551615#0#---2#-4@55"file://localhost/Users/ikeg/Desktop/BoidTestBeta/boid.h0000000000000000^13#18446744073709551615#13#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@45"'GL_TRIANGLES' was not declared in this scope-334429456#244#99#-2#-4@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/boid.cpp0000000000000000^60#18446744073709551615#60#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@40"'glBegin' was not declared in this scope-334429456#343#94#-2#-4@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/boid.cpp0000000000000000^60#18446744073709551615#60#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@43"'glVertex3d' was not declared in this scope-334429456#437#97#-2#-4@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/boid.cpp0000000000000000^61#18446744073709551615#61#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@38"'glEnd' was not declared in this scope-334429456#534#92#-2#-4@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/boid.cpp0000000000000000^64#18446744073709551615#64#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--0#0#0#-19%DVTDocumentLocation5@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/boid.cpp0000000000000000^1255"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o boid.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/ikeg/Desktop/BoidTestBeta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/Debug/include -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/i386 -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Desktop/BoidTestBeta/build/Debug -c /Users/ikeg/Desktop/BoidTestBeta/boid.cpp -o /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o /Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353753440.475436
+e353753440.702023
+r0
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o
+x/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp:10:
+o/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.h:14:23: error: GLUI/GLUI.h: No such file or directory
+o/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp: In member function 'void Boid::draw()':
+o/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp:61: error: 'GL_TRIANGLES' was not declared in this scope
+o/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp:61: error: 'glBegin' was not declared in this scope
+o/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp:62: error: 'glVertex3d' was not declared in this scope
+o/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp:65: error: 'glEnd' was not declared in this scope
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cppb9c47960d915b541^29b1b360d915b541^-703"In file included from /Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp:10:/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.h:14:23: error: GLUI/GLUI.h: No such file or directory/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp: In member function 'void Boid::draw()':/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp:61: error: 'GL_TRIANGLES' was not declared in this scope/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp:61: error: 'glBegin' was not declared in this scope/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp:62: error: 'glVertex3d' was not declared in this scope/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp:65: error: 'glEnd' was not declared in this scope5(21%IDEActivityLogMessage2@38"GLUI/GLUI.h: No such file or directory-353753440#79#104#2(36%IDEActivityLogHeaderInclusionMessage3@74"In file included from /Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp-353753440#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@68"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---2@92"GLUI/GLUI.h: No such file or directory in /Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.h-353753440#18446744073709551615#0#-0#-4@66"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.h0000000000000000^13#18446744073709551615#13#18446744073709551615#18446744073709551615#0#---2#-4@66"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.h0000000000000000^13#18446744073709551615#13#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--2@45"'GL_TRIANGLES' was not declared in this scope-353753440#277#110#-2#-4@68"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp0000000000000000^60#18446744073709551615#60#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@40"'glBegin' was not declared in this scope-353753440#387#105#-2#-4@68"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp0000000000000000^60#18446744073709551615#60#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@43"'glVertex3d' was not declared in this scope-353753440#492#108#-2#-4@68"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp0000000000000000^61#18446744073709551615#61#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--2@38"'glEnd' was not declared in this scope-353753440#600#103#-2#-4@68"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp0000000000000000^64#18446744073709551615#64#18446744073709551615#18446744073709551615#0#34"'*' was not declared in this scope--0#0#0#-19%DVTDocumentLocation5@68"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp0000000000000000^1376"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o boid.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/ikeg/Desktop/temporalFD/BoidTestBeta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/Debug/include -I/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/i386 -I/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/Debug -c /Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.cpp -o /Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/boid.o
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o /Users/ikeg/Desktop/BoidTestBeta/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s331871500.789991
+e331871500.900633
+r0
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o
+x/Users/ikeg/Desktop/BoidTestBeta/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+odyld: Library not loaded: @executable_path/libllvmgcc.dylib
+o  Referenced from: /Developer/usr/llvm-gcc-4.2/libexec/gcc/i686-apple-darwin10/4.2.1/cc1plus
+o  Reason: image not found
+ogcc-4.2: Internal error: Trace/BPT trap (program cc1plus)
+oPlease submit a full bug report.
+oSee <URL:http://developer.apple.com/bugreporter> for instructions.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/ikeg/Desktop/BoidTestBeta/main.cppdf52ca0cf5c7b341^8a90e60cf5c7b341^-337"dyld: Library not loaded: @executable_path/libllvmgcc.dylib  Referenced from: /Developer/usr/llvm-gcc-4.2/libexec/gcc/i686-apple-darwin10/4.2.1/cc1plus  Reason: image not foundgcc-4.2: Internal error: Trace/BPT trap (program cc1plus)Please submit a full bug report.See <URL:http://developer.apple.com/bugreporter> for instructions.-0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/main.cpp0000000000000000^1248"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o main.cpp normal i386 c++ com.apple.compilers.gcc.4_2    cd /Users/ikeg/Desktop/BoidTestBeta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/Debug/include -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/i386 -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Desktop/BoidTestBeta/build/Debug -c /Users/ikeg/Desktop/BoidTestBeta/main.cpp -o /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o /Users/ikeg/Desktop/BoidTestBeta/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s334429456.398111
+e334429456.754431
+r0
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o
+x/Users/ikeg/Desktop/BoidTestBeta/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /usr/include/c++/4.2.1/backward/fstream.h:31,
+o                 from /Users/ikeg/Desktop/BoidTestBeta/main.cpp:16:
+o/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.
+oIn file included from /Users/ikeg/Desktop/BoidTestBeta/main.cpp:17:
+o/Users/ikeg/Desktop/BoidTestBeta/boid.h:14:23: error: GLUI/GLUI.h: No such file or directory
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/ikeg/Desktop/BoidTestBeta/main.cppa20b6610fdeeb341^9ed0c310fdeeb341^-718"In file included from /usr/include/c++/4.2.1/backward/fstream.h:31,                 from /Users/ikeg/Desktop/BoidTestBeta/main.cpp:16:/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.In file included from /Users/ikeg/Desktop/BoidTestBeta/main.cpp:17:/Users/ikeg/Desktop/BoidTestBeta/boid.h:14:23: error: GLUI/GLUI.h: No such file or directory2(21%IDEActivityLogMessage2@354"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.-334429456#136#421#3(36%IDEActivityLogHeaderInclusionMessage3@63"In file included from /Users/ikeg/Desktop/BoidTestBeta/main.cpp-334429456#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/main.cpp0000000000000000^15#18446744073709551615#15#18446744073709551615#18446744073709551615#0#---3@63"In file included from /usr/include/c++/4.2.1/backward/fstream.h-334429456#18446744073709551615#0#-0#-4@57"file://localhost/usr/include/c++/4.2.1/backward/fstream.h0000000000000000^30#18446744073709551615#30#18446744073709551615#18446744073709551615#0#---2@408"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. in /usr/include/c++/4.2.1/backward/backward_warning.h-334429456#18446744073709551615#0#-0#-4@66"file://localhost/usr/include/c++/4.2.1/backward/backward_warning.h0000000000000000^31#18446744073709551615#31#18446744073709551615#18446744073709551615#0#---1#-4@66"file://localhost/usr/include/c++/4.2.1/backward/backward_warning.h0000000000000000^31#18446744073709551615#31#18446744073709551615#18446744073709551615#0#10"#warning *--2@38"GLUI/GLUI.h: No such file or directory-334429456#625#93#2(3@63"In file included from /Users/ikeg/Desktop/BoidTestBeta/main.cpp-334429456#18446744073709551615#0#-0#-4@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/main.cpp0000000000000000^16#18446744073709551615#16#18446744073709551615#18446744073709551615#0#---2@81"GLUI/GLUI.h: No such file or directory in /Users/ikeg/Desktop/BoidTestBeta/boid.h-334429456#18446744073709551615#0#-0#-4@55"file://localhost/Users/ikeg/Desktop/BoidTestBeta/boid.h0000000000000000^13#18446744073709551615#13#18446744073709551615#18446744073709551615#0#---2#-4@55"file://localhost/Users/ikeg/Desktop/BoidTestBeta/boid.h0000000000000000^13#18446744073709551615#13#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--0#0#0#-19%DVTDocumentLocation5@57"file://localhost/Users/ikeg/Desktop/BoidTestBeta/main.cpp0000000000000000^1255"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o main.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/ikeg/Desktop/BoidTestBeta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/Debug/include -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/i386 -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Desktop/BoidTestBeta/build/Debug -c /Users/ikeg/Desktop/BoidTestBeta/main.cpp -o /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o /Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353753440.474476
+e353753440.802118
+r0
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o
+x/Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /usr/include/c++/4.2.1/backward/fstream.h:31,
+o                 from /Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp:16:
+o/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.
+oIn file included from /Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp:17:
+o/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.h:14:23: error: GLUI/GLUI.h: No such file or directory
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp49857960d915b541^81d1cd60d915b541^-751"In file included from /usr/include/c++/4.2.1/backward/fstream.h:31,                 from /Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp:16:/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.In file included from /Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp:17:/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.h:14:23: error: GLUI/GLUI.h: No such file or directory2(21%IDEActivityLogMessage2@354"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.-353753440#147#421#3(36%IDEActivityLogHeaderInclusionMessage3@74"In file included from /Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp-353753440#18446744073709551615#0#-0#-23%DVTTextDocumentLocation4@68"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp0000000000000000^15#18446744073709551615#15#18446744073709551615#18446744073709551615#0#---3@63"In file included from /usr/include/c++/4.2.1/backward/fstream.h-353753440#18446744073709551615#0#-0#-4@57"file://localhost/usr/include/c++/4.2.1/backward/fstream.h0000000000000000^30#18446744073709551615#30#18446744073709551615#18446744073709551615#0#---2@408"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. in /usr/include/c++/4.2.1/backward/backward_warning.h-353753440#18446744073709551615#0#-0#-4@66"file://localhost/usr/include/c++/4.2.1/backward/backward_warning.h0000000000000000^31#18446744073709551615#31#18446744073709551615#18446744073709551615#0#---1#-4@66"file://localhost/usr/include/c++/4.2.1/backward/backward_warning.h0000000000000000^31#18446744073709551615#31#18446744073709551615#18446744073709551615#0#10"#warning *--2@38"GLUI/GLUI.h: No such file or directory-353753440#647#104#2(3@74"In file included from /Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp-353753440#18446744073709551615#0#-0#-4@68"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp0000000000000000^16#18446744073709551615#16#18446744073709551615#18446744073709551615#0#---2@92"GLUI/GLUI.h: No such file or directory in /Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.h-353753440#18446744073709551615#0#-0#-4@66"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.h0000000000000000^13#18446744073709551615#13#18446744073709551615#18446744073709551615#0#---2#-4@66"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/boid.h0000000000000000^13#18446744073709551615#13#18446744073709551615#18446744073709551615#0#28"*: No such file or directory--0#0#0#-19%DVTDocumentLocation5@68"file://localhost/Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp0000000000000000^1376"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o main.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/ikeg/Desktop/temporalFD/BoidTestBeta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/Debug/include -I/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/i386 -I/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/Debug -c /Users/ikeg/Desktop/temporalFD/BoidTestBeta/main.cpp -o /Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/main.o
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o /Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s331871534.438018
+e331871534.448611
+r0
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o
+x/Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+odyld: Library not loaded: @executable_path/libllvmgcc.dylib
+o  Referenced from: /Developer/usr/llvm-gcc-4.2/libexec/gcc/i686-apple-darwin10/4.2.1/cc1plus
+o  Reason: image not found
+ogcc-4.2: Internal error: Trace/BPT trap (program cc1plus)
+oPlease submit a full bug report.
+oSee <URL:http://developer.apple.com/bugreporter> for instructions.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp3f37702ef5c7b341^24d2722ef5c7b341^-396"dyld: Library not loaded: @executable_path/libllvmgcc.dylib  Referenced from: /Developer/usr/llvm-gcc-4.2/libexec/gcc/i686-apple-darwin10/4.2.1/cc1plus  Reason: image not foundgcc-4.2: Internal error: Trace/BPT trap (program cc1plus)Please submit a full bug report.See <URL:http://developer.apple.com/bugreporter> for instructions.Command /Developer/usr/bin/gcc-4.2 failed with exit code 11(21%IDEActivityLogMessage2@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1-331871534#18446744073709551615#0#-2#--13"GCC 4.2 Error--0#0#0#-19%DVTDocumentLocation3@61"file://localhost/Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp0000000000000000^1264"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o vector3D.cpp normal i386 c++ com.apple.compilers.gcc.4_2    cd /Users/ikeg/Desktop/BoidTestBeta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/Debug/include -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/i386 -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Desktop/BoidTestBeta/build/Debug -c /Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp -o /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o /Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s331873484.438138
+e331873484.851592
+r1
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o
+x/Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp9f3c70ccfcc7b341^8107daccfcc7b341^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp0000000000000000^1271"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o vector3D.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/ikeg/Desktop/BoidTestBeta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Desktop/BoidTestBeta/build/Debug/include -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/i386 -I/Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Desktop/BoidTestBeta/build/Debug -c /Users/ikeg/Desktop/BoidTestBeta/vector3D.cpp -o /Users/ikeg/Desktop/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/i386/vector3D.o /Users/ikeg/Desktop/temporalFD/BoidTestBeta/vector3D.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/boid.o /Users/ikeg/Dropbox/BoidTestBeta/boid.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s438232105.182777
+e438232105.806659
+r1
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/boid.o
+x/Users/ikeg/Dropbox/BoidTestBeta/boid.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ikeg/Dropbox/BoidTestBeta/boid.cpp
+d/Users/ikeg/Dropbox/BoidTestBeta/boid.h
+d/Users/ikeg/Dropbox/BoidTestBeta/parameter.h
+d/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h
+d/Users/ikeg/Dropbox/BoidTestBeta/vector3D.h
+oIn file included from /Users/ikeg/Dropbox/BoidTestBeta/boid.cpp:10:
+oIn file included from /Users/ikeg/Dropbox/BoidTestBeta/boid.h:15:
+o/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h:944:24: warning: equality comparison result unused [-Wunused-comparison]
+o        last_live_text == "";
+o        ~~~~~~~~~~~~~~~^~~~~
+o/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h:944:24: note: use '=' to turn this equality comparison into an assignment
+o        last_live_text == "";
+o                       ^~
+o                       =
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/ikeg/Dropbox/BoidTestBeta/boid.cpp146"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/boid.o boid.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilera2292f29e41eba41^4581ce29e41eba41^-550"In file included from /Users/ikeg/Dropbox/BoidTestBeta/boid.cpp:10:In file included from /Users/ikeg/Dropbox/BoidTestBeta/boid.h:15:/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h:944:24: warning: equality comparison result unused [-Wunused-comparison]        last_live_text == "";        ~~~~~~~~~~~~~~~^~~~~/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h:944:24: note: use '=' to turn this equality comparison into an assignment        last_live_text == "";                       ^~                       =1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@33"Equality comparison result unused-438232105#18446744073709551615#0#3(2@67"In file included from /Users/ikeg/Dropbox/BoidTestBeta/boid.cpp:10:-438232105#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@57"file://localhost/Users/ikeg/Dropbox/BoidTestBeta/boid.cpp0000000000000000^9#9#9#9#145#0#21"Apple LLVM 5.0 Notice--2@65"In file included from /Users/ikeg/Dropbox/BoidTestBeta/boid.h:15:-438232105#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@55"file://localhost/Users/ikeg/Dropbox/BoidTestBeta/boid.h0000000000000000^14#9#14#9#220#0#21"Apple LLVM 5.0 Notice--2@59"Use '=' to turn this equality comparison into an assignment-438232105#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h0000000000000000^943#23#943#23#34772#0#14"Semantic Issue1(3@69"file://localhost/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h0000000000000000^943#23#943#25#34772#2#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h0000000000000000^943#23#943#23#34772#0#19"Unused Entity Issue1(3@69"file://localhost/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h0000000000000000^943#8#943#28#34757#18#-0#0#1#-19%DVTDocumentLocation4@57"file://localhost/Users/ikeg/Dropbox/BoidTestBeta/boid.cpp0000000000000000^2472"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/boid.o boid.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ikeg/Dropbox/BoidTestBeta    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Dropbox/BoidTestBeta/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/x86_64 -I/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Dropbox/BoidTestBeta/build/Debug -MMD -MT dependencies -MF /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/boid.d --serialize-diagnostics /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/boid.dia -c /Users/ikeg/Dropbox/BoidTestBeta/boid.cpp -o /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/boid.o36"9200B1B9-FEBF-44FB-8B43-8B913F2E87A3-
+b31BA1B85-2D9C-4150-89D8-B232705C466A
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/main.o /Users/ikeg/Dropbox/BoidTestBeta/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s438232105.181957
+e438232105.864055
+r1
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/main.o
+x/Users/ikeg/Dropbox/BoidTestBeta/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ikeg/Dropbox/BoidTestBeta/main.cpp
+d/Users/ikeg/Dropbox/BoidTestBeta/boid.h
+d/Users/ikeg/Dropbox/BoidTestBeta/parameter.h
+d/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h
+d/Users/ikeg/Dropbox/BoidTestBeta/vector3D.h
+oIn file included from /Users/ikeg/Dropbox/BoidTestBeta/main.cpp:16:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/c++/4.2.1/backward/fstream.h:31:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. [-W#warnings]
+o#warning This file includes at least one deprecated or antiquated header. \
+o ^
+oIn file included from /Users/ikeg/Dropbox/BoidTestBeta/main.cpp:17:
+oIn file included from /Users/ikeg/Dropbox/BoidTestBeta/boid.h:15:
+o/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h:944:24: warning: equality comparison result unused [-Wunused-comparison]
+o        last_live_text == "";
+o        ~~~~~~~~~~~~~~~^~~~~
+o/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h:944:24: note: use '=' to turn this equality comparison into an assignment
+o        last_live_text == "";
+o                       ^~
+o                       =
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/ikeg/Dropbox/BoidTestBeta/main.cpp146"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/main.o main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd8b82e29e41eba41^5132dd29e41eba41^-1388"In file included from /Users/ikeg/Dropbox/BoidTestBeta/main.cpp:16:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/c++/4.2.1/backward/fstream.h:31:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. [-W#warnings]#warning This file includes at least one deprecated or antiquated header. \ ^In file included from /Users/ikeg/Dropbox/BoidTestBeta/main.cpp:17:In file included from /Users/ikeg/Dropbox/BoidTestBeta/boid.h:15:/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h:944:24: warning: equality comparison result unused [-Wunused-comparison]        last_live_text == "";        ~~~~~~~~~~~~~~~^~~~~/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h:944:24: note: use '=' to turn this equality comparison into an assignment        last_live_text == "";                       ^~                       =2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@345"This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.-438232105#18446744073709551615#0#2(2@67"In file included from /Users/ikeg/Dropbox/BoidTestBeta/main.cpp:16:-438232105#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@57"file://localhost/Users/ikeg/Dropbox/BoidTestBeta/main.cpp0000000000000000^15#9#15#9#262#0#21"Apple LLVM 5.0 Notice--2@165"In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/c++/4.2.1/backward/fstream.h:31:-438232105#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@155"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/c++/4.2.1/backward/fstream.h0000000000000000^30#9#30#9#1456#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@164"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/c++/4.2.1/backward/backward_warning.h0000000000000000^31#1#31#1#1480#0#18"#warning Directive--2@33"Equality comparison result unused-438232105#18446744073709551615#0#3(2@67"In file included from /Users/ikeg/Dropbox/BoidTestBeta/main.cpp:17:-438232105#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@57"file://localhost/Users/ikeg/Dropbox/BoidTestBeta/main.cpp0000000000000000^16#9#16#9#283#0#21"Apple LLVM 5.0 Notice--2@65"In file included from /Users/ikeg/Dropbox/BoidTestBeta/boid.h:15:-438232105#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@55"file://localhost/Users/ikeg/Dropbox/BoidTestBeta/boid.h0000000000000000^14#9#14#9#220#0#21"Apple LLVM 5.0 Notice--2@59"Use '=' to turn this equality comparison into an assignment-438232105#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h0000000000000000^943#23#943#23#34772#0#14"Semantic Issue1(3@69"file://localhost/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h0000000000000000^943#23#943#25#34772#2#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h0000000000000000^943#23#943#23#34772#0#19"Unused Entity Issue1(3@69"file://localhost/Users/ikeg/Downloads/glui-2.36/src/include/GL/glui.h0000000000000000^943#8#943#28#34757#18#-0#0#1#-19%DVTDocumentLocation4@57"file://localhost/Users/ikeg/Dropbox/BoidTestBeta/main.cpp0000000000000000^2472"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/main.o main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ikeg/Dropbox/BoidTestBeta    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Dropbox/BoidTestBeta/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/x86_64 -I/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Dropbox/BoidTestBeta/build/Debug -MMD -MT dependencies -MF /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/main.dia -c /Users/ikeg/Dropbox/BoidTestBeta/main.cpp -o /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/main.o36"43399C73-6B5F-480F-A2F9-0D8DD2B99460-
+b31BA1B85-2D9C-4150-89D8-B232705C466A
+
+CCompileC build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/vector3D.o /Users/ikeg/Dropbox/BoidTestBeta/vector3D.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s438232105.184120
+e438232105.721085
+r1
+xCompileC
+xbuild/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/vector3D.o
+x/Users/ikeg/Dropbox/BoidTestBeta/vector3D.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ikeg/Dropbox/BoidTestBeta/vector3D.cpp
+d/Users/ikeg/Dropbox/BoidTestBeta/vector3D.h
+d/Users/ikeg/Dropbox/BoidTestBeta/parameter.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/ikeg/Dropbox/BoidTestBeta/vector3D.cpp154"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/vector3D.o vector3D.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5f442f29e41eba41^e598b829e41eba41^---0#0#1#-19%DVTDocumentLocation2@61"file://localhost/Users/ikeg/Dropbox/BoidTestBeta/vector3D.cpp0000000000000000^2496"CompileC build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/vector3D.o vector3D.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ikeg/Dropbox/BoidTestBeta    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-generated-files.hmap -I/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-own-target-headers.hmap -I/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-all-target-headers.hmap -iquote /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Main-project-headers.hmap -I/Users/ikeg/Dropbox/BoidTestBeta/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources/x86_64 -I/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/DerivedSources -F/Users/ikeg/Dropbox/BoidTestBeta/build/Debug -MMD -MT dependencies -MF /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/vector3D.d --serialize-diagnostics /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/vector3D.dia -c /Users/ikeg/Dropbox/BoidTestBeta/vector3D.cpp -o /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/vector3D.o36"079CA04D-3BDA-4E95-ABAF-37A3807E2719-
+b31BA1B85-2D9C-4150-89D8-B232705C466A
+
+CLd /Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/MacOS/Main normal i386
+r0
+
+CLd /Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/Debug/Main.app/Contents/MacOS/Main normal i386
+r0
+
+CLd /Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app/Contents/MacOS/Main normal x86_64
+s438232105.875657
+e438232105.924661
+r1
+xLd
+x/Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app/Contents/MacOS/Main
+xnormal
+xx86_64
+d/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/Main.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
+d/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/main.o
+d/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/boid.o
+d/Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/vector3D.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libstdc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.A.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Link /Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app/Contents/MacOS/Main57"Ld build/Debug/Main.app/Contents/MacOS/Main normal x86_64753ae029e41eba41^b3b7ec29e41eba41^---0#0#1#--905"Ld build/Debug/Main.app/Contents/MacOS/Main normal x86_64    cd /Users/ikeg/Dropbox/BoidTestBeta    export MACOSX_DEPLOYMENT_TARGET=10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/ikeg/Dropbox/BoidTestBeta/build/Debug -F/Users/ikeg/Dropbox/BoidTestBeta/build/Debug -filelist /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/Main.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework GLUT -framework OpenGL -Xlinker -dependency_info -Xlinker /Users/ikeg/Dropbox/BoidTestBeta/build/BoidTest.build/Debug/Main.build/Objects-normal/x86_64/Main_dependency_info.dat -o /Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app/Contents/MacOS/Main36"E13109E1-EE12-4D9E-906C-B3B7A1BEFD4D-
+b31BA1B85-2D9C-4150-89D8-B232705C466A
+
+CProcessInfoPlistFile /Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist Main-Info.plist
+s331867318.303508
+e331867318.355133
+r1
+xProcessInfoPlistFile
+x/Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist
+xMain-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection23"Process Main-Info.plist01fa4db6e4c7b341^603c5bb6e4c7b341^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Users/ikeg/Desktop/BoidTestBeta/Main-Info.plist0000000000000000^361"ProcessInfoPlistFile build/Debug/Main.app/Contents/Info.plist Main-Info.plist    cd /Users/ikeg/Desktop/BoidTestBeta    builtin-infoPlistUtility Main-Info.plist -genpkginfo /Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist
+
+CProcessInfoPlistFile /Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist Main-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app/Contents/Info.plist /Users/ikeg/Dropbox/BoidTestBeta/Main-Info.plist
+r0
+
+CTouch /Users/ikeg/Desktop/BoidTestBeta/build/Debug/Main.app
+r0
+
+CTouch /Users/ikeg/Desktop/temporalFD/BoidTestBeta/build/Debug/Main.app
+r0
+
+CTouch /Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app
+s438232105.935646
+e438232105.943334
+r1
+xTouch
+x/Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Touch /Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app26"Touch build/Debug/Main.app9694ef29e41eba41^cc41f429e41eba41^---0#0#1#--143"Touch build/Debug/Main.app    cd /Users/ikeg/Dropbox/BoidTestBeta    /usr/bin/touch -c /Users/ikeg/Dropbox/BoidTestBeta/build/Debug/Main.app36"2D97149B-BF06-4AF4-9FEE-8BED2B457515-
+b31BA1B85-2D9C-4150-89D8-B232705C466A
+
