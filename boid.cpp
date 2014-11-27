@@ -68,8 +68,10 @@ void Boid::draw() {
 
 bool Boid::canSee(Boid _b){
 	if( ( (*this).position - _b.position ).getAbs() < sightDistance ){
-		double costh = ((*this).velocity * _b.velocity) / ( (*this).velocity.getAbs()*_b.velocity.getAbs() );
-		if( acos(costh) <= 2*PI*SIGHTANGLE ){
+        Vector3D sightVec = (*this).velocity;
+        Vector3D relativePos = _b.position - (*this).position;
+        double th = acos((sightVec * relativePos) / (sightVec.getAbs() * relativePos.getAbs()));
+		if( th <= PI*SIGHTANGLE ){
 			return true;
 		}
 	}
