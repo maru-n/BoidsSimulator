@@ -19,16 +19,16 @@ const int N = 32*32;
 
 const double FIELD_SIZE = 1.0;
 
-const double SIGHT_DISTANCE_SEPARATION = 0.004;
-const double SIGHT_DISTANCE_ALIGNMENT = 0.007;
-const double SIGHT_DISTANCE_COHESION = 0.007;
+const double SIGHT_DISTANCE_SEPARATION = 0.04;
+const double SIGHT_DISTANCE_ALIGNMENT = 0.07;
+const double SIGHT_DISTANCE_COHESION = 0.07;
 const double SIGHT_ANGLE_SEPARATION = 1.0;
 const double SIGHT_ANGLE_ALIGNMENT = 1.0;
 const double SIGHT_ANGLE_COHESION = 1.0;
 
-const double COEFF_SEPARATION = 0.0; // 10^-4
-const double COEFF_COHESION = 0.15; // 3x 10^-4
-const double COEFF_ALIGNMENT = 0.0; // 10^-4
+const double COEFF_SEPARATION = 0.15; // 10^-4
+const double COEFF_COHESION = 0.; // 3x 10^-4
+const double COEFF_ALIGNMENT = 0.; // 10^-4
 
 const double preyF = 0.000002;
 

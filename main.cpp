@@ -51,12 +51,12 @@ void update_boids()
                 // Cohesion
                 if (boids[i].isInsideCohesionArea(boids[j])){
                     neivers_num_coh ++;
-                    dv_coh += boids[j].position.getUnity();
+                    dv_coh += boids[j].position;
                 }
                 // Separation
                 if (boids[i].isInsideSeparationArea(boids[j])) {
                     neivers_num_sep ++;
-                    dv_sep -= boids[j].position;
+                    dv_sep += (boids[i].position - boids[j].position).getUnity();
                 }
                 // Alignment
                 if (boids[j].isInsideAlignmentArea(boids[j])) {
@@ -65,24 +65,32 @@ void update_boids()
                 }
             }
         }
-        
-        dv_coh = dv_coh / (neivers_num_coh==0?1:neivers_num_coh);
-        dv_sep = dv_sep / (neivers_num_sep==0?1:neivers_num_sep);
-        dv_ali = dv_ali / (neivers_num_ali==0?1:neivers_num_ali);
-        
+        if (neivers_num_coh != 0) {
+            dv_coh = dv_coh / neivers_num_coh - boids[i].position;
+        }
+        if (neivers_num_sep != 0) {
+            //dv_sep = dv_sep / neivers_num_sep;
+        }
+        if (neivers_num_ali != 0) {
+            dv_ali = dv_ali / neivers_num_ali - boids[i].velocity;
+        }
         dv[i] = COEFF_COHESION*dv_coh + COEFF_SEPARATION*dv_sep +COEFF_ALIGNMENT*dv_ali;
     }
     
     for(int i=0; i<N; i++) {
+        if (dv[i].z != 0) {
+            printf("test");
+        }
         boids[i].velocity += dv[i];
-        
+        /*
         if(PREY){
             boids[i].velocity += (preyPosition - boids[i].position).getUnity() * preyF;
         }
-
-        if(boids[i].velocity.getAbs()>MAX_VELOCITY){
+         */
+        
+        if(boids[i].velocity.getAbs()>0. and boids[i].velocity.getAbs()>MAX_VELOCITY){
             boids[i].velocity = boids[i].velocity.getUnity() * MAX_VELOCITY;
-        }else if(boids[i].velocity.getAbs()<MIN_VELOCITY){
+        }else if(boids[i].velocity.getAbs()>0. and boids[i].velocity.getAbs()<MIN_VELOCITY){
             boids[i].velocity = boids[i].velocity.getUnity() * MIN_VELOCITY;
         }
         
@@ -305,11 +313,11 @@ void init(void)
     glClearColor(1.0, 1.0, 1.0, 1.0);
     srand(12345);
 	for(int i=0; i<N; i++){
-        boids[i].position.x = drand48()*0.1 + FIELD_SIZE/2.;
-        boids[i].position.y = drand48()*0.1 + FIELD_SIZE/2.;
+        boids[i].position.x = drand48()*0.2 - 0.1 + FIELD_SIZE/2.;
+        boids[i].position.y = drand48()*0.2 - 0.1 + FIELD_SIZE/2.;
         boids[i].position.z = 0.;
         
-        boids[i].velocity.x = 0.01; //( drand48()*2.0 - 1.0 ) * (MAX_VELOCITY - MIN_VELOCITY) + MIN_VELOCITY;
+        boids[i].velocity.x = 0.001; //( drand48()*2.0 - 1.0 ) * (MAX_VELOCITY - MIN_VELOCITY) + MIN_VELOCITY;
         boids[i].velocity.y = 0.; //( drand48()*2.0 - 1.0 ) * (MAX_VELOCITY - MIN_VELOCITY) + MIN_VELOCITY;
         boids[i].velocity.z = 0.; //( drand48()*2.0 - 1.0 ) * (MAX_VELOCITY - MIN_VELOCITY) + MIN_VELOCITY;
 	}
