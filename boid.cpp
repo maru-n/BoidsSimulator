@@ -16,8 +16,6 @@ Boid::Boid(){
 	Vector3D v;
 	position = p;
 	velocity = v;
-	sightDistance = SIGHTDISTANCE;
-	sightAngle = SIGHTANGLE;
 	live = false;
 }
 
@@ -25,16 +23,12 @@ Boid::Boid(Vector3D _p){
 	Vector3D v;
 	position = _p;
 	velocity = v;
-	sightDistance = SIGHTDISTANCE;
-	sightAngle = SIGHTANGLE;
 	live = false;
 }
 
 Boid::Boid(Vector3D _p, Vector3D _v){
 	position = _p;
 	velocity = _v;
-	sightDistance = SIGHTDISTANCE;
-	sightAngle = SIGHTANGLE;
 	live = false;
 }
 
@@ -66,14 +60,26 @@ void Boid::draw() {
 	}
 }
 
-bool Boid::canSee(Boid _b){
-	if( ( (*this).position - _b.position ).getAbs() < sightDistance ){
-        Vector3D sightVec = (*this).velocity;
+bool Boid::isInsideArea(Boid _b, double _sighe_distance, double _sight_angle) {
+	if( ( (*this).position - _b.position ).getAbs() < _sighe_distance ){
+		Vector3D sightVec = (*this).velocity;
         Vector3D relativePos = _b.position - (*this).position;
         double th = acos((sightVec * relativePos) / (sightVec.getAbs() * relativePos.getAbs()));
-		if( th <= PI*SIGHTANGLE ){
+		if( th <= PI*_sight_angle ){
 			return true;
 		}
 	}
 	return false;
 }
+
+bool Boid::isInsideSeparationArea(Boid _b) {
+    return isInsideArea(_b, SIGHT_DISTANCE_SEPARATION, SIGHT_ANGLE_SEPARATION);
+}
+
+bool Boid::isInsideAlignmentArea(Boid _b) {
+    return isInsideArea(_b, SIGHT_DISTANCE_ALIGNMENT, SIGHT_ANGLE_ALIGNMENT);
+}
+bool Boid::isInsideCohesionArea(Boid _b) {
+    return isInsideArea(_b, SIGHT_DISTANCE_COHESION, SIGHT_ANGLE_COHESION);
+}
+
