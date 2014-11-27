@@ -31,6 +31,103 @@ unsigned long int ind = 0;
 std::ofstream ofData;
 std::ofstream ofParam;
 
+int  dragMouseL = 0;
+int  lastMouseX;
+int  lastMouseY;
+
+
+void update_boids()
+{
+    Vector3D dv[N];
+    for(int i=0; i<N; i++){
+        Vector3D dv_coh;
+        Vector3D dv_sep;
+        Vector3D dv_ali;
+        int neivers_num_coh = 0;
+        int neivers_num_sep = 0;
+        int neivers_num_ali = 0;
+        for(int j=0; j<N; j++){
+            if( i != j ){
+                // Cohesion
+                if (boids[i].isInsideCohesionArea(boids[j])){
+                    neivers_num_coh ++;
+                    dv_coh += boids[j].position.getUnity();
+                }
+                // Separation
+                if (boids[i].isInsideSeparationArea(boids[j])) {
+                    neivers_num_sep ++;
+                    dv_sep -= boids[j].position;
+                }
+                // Alignment
+                if (boids[j].isInsideAlignmentArea(boids[j])) {
+                    neivers_num_ali ++;
+                    dv_ali += boids[j].velocity;
+                }
+            }
+        }
+        
+        dv_coh = dv_coh / (neivers_num_coh==0?1:neivers_num_coh);
+        dv_sep = dv_sep / (neivers_num_sep==0?1:neivers_num_sep);
+        dv_ali = dv_ali / (neivers_num_ali==0?1:neivers_num_ali);
+        
+        dv[i] = COEFF_COHESION*dv_coh + COEFF_SEPARATION*dv_sep +COEFF_ALIGNMENT*dv_ali;
+    }
+    
+    for(int i=0; i<N; i++) {
+        boids[i].velocity += dv[i];
+        
+        if(PREY){
+            boids[i].velocity += (preyPosition - boids[i].position).getUnity() * preyF;
+        }
+
+        if(boids[i].velocity.getAbs()>MAX_VELOCITY){
+            boids[i].velocity = boids[i].velocity.getUnity() * MAX_VELOCITY;
+        }else if(boids[i].velocity.getAbs()<MIN_VELOCITY){
+            boids[i].velocity = boids[i].velocity.getUnity() * MIN_VELOCITY;
+        }
+        
+        //update boid
+        boids[i].position += boids[i].velocity;
+        
+        //Boundary conditon
+        if(boids[i].position.x < 0.0) {
+            boids[i].position.x = FIELD_SIZE + boids[i].position.x;
+        }
+        if(boids[i].position.y < 0.0) {
+            boids[i].position.y = FIELD_SIZE + boids[i].position.y;
+        }
+        if(boids[i].position.z < 0.0) {
+            boids[i].position.z = FIELD_SIZE + boids[i].position.z;
+        }
+        if(boids[i].position.x > FIELD_SIZE) {
+            boids[i].position.x = boids[i].position.x - FIELD_SIZE;
+        }
+        if(boids[i].position.y > FIELD_SIZE) {
+            boids[i].position.y = boids[i].position.y - FIELD_SIZE;
+        }
+        if(boids[i].position.z > FIELD_SIZE) {
+            boids[i].position.z = boids[i].position.z - FIELD_SIZE;
+        }
+        
+        //output data
+        if(LOGGING and timeStep%outputStep==0){
+            ofData << ind++ << "," << i << " "
+            << boids[i].position.x * 2.0 - 1.0 << " "
+            << boids[i].position.y * 2.0 - 1.0 << " "
+            << boids[i].position.z * 2.0 - 1.0 << " ";
+            if(boids[i].live){
+                ofData << 0;
+            }else{
+                ofData << 1;
+            }
+            ofData << ";\n";
+            if(stopPeriod && ind==10000){
+                exit(0);
+            }
+        }
+    }
+}
+
 void idle(void){
 	//std::cout << "timeStep : " << timeStep << "\n";
 	//std::cout << "clock()  : " << clock() << "\n";
@@ -43,11 +140,6 @@ void idle(void){
 		}
 	}
 	
-	bool outf = false;
-	if(timeStep%outputStep==0){
-		outf = true;
-	}
-	
 	if( PREY && (timeStep%CHANGE_PREY)==0 ) {
 		preyPosition.x = (double)rand()/(double)RAND_MAX;
 		preyPosition.y = (double)rand()/(double)RAND_MAX;
@@ -55,94 +147,8 @@ void idle(void){
 	}
 	
 	timeStep++;
-	
-	for(int i=0; i<N; i++){
-		
-		//Cohesion
-		Vector3D v_coh;
-		//Separation
-		Vector3D v_sep;
-		Vector3D v_rad(SIGHTDISTANCE, SIGHTDISTANCE, SIGHTDISTANCE);
-		//Alignment
-		Vector3D v_ali;
-		int sightNum = 0;
-		for(int j=0; j<N; j++){
-			if( i != j ){
-				if( boids[i].canSee(boids[j]) ){
-					sightNum ++;
-					v_coh += boids[j].position;
-					v_sep -= ( boids[j].position - boids[i].position ).getUnity() *
-						(SIGHTDISTANCE - ( boids[j].position - boids[i].position ).getAbs());
-					v_ali += boids[j].velocity;
-				}
-			}
-		}
-	
-		if(sightNum!=0){
-			v_coh /= sightNum;
-			v_ali /= sightNum;
-			v_sep /= sightNum;
-	//		if(sightNum>=toLiveMin && sightNum<=toLiveMax){
-	//			boids[i].live = true;
-	//		}else{
-	//			boids[i].live = false;
-	//		}
-
-			boids[i].velocity += ((v_coh - boids[i].position) * cohesionF);
-			boids[i].velocity += ( v_sep * separationF );
-			boids[i].velocity += ((v_ali - boids[i].velocity) * alignmentF);
-		}
-		
-		if(PREY){
-			boids[i].velocity += (preyPosition - boids[i].position).getUnity() * preyF;
-		}
-		
-		if(boids[i].velocity.getAbs()>MAX_VEL){
-			boids[i].velocity = boids[i].velocity.getUnity() * MAX_VEL;
-		}
-		
-		//update boids
-		boids[i].position += boids[i].velocity;
-		
-		//loop at boundary
-		if(boids[i].position.x < 0.0) {
-			boids[i].position.x = 1.0 + boids[i].position.x;
-		}
-		if(boids[i].position.y < 0.0) {
-			boids[i].position.y = 1.0 + boids[i].position.y;
-		}
-		if(boids[i].position.z < 0.0) {
-			boids[i].position.z = 1.0 + boids[i].position.z;
-		}
-		if(boids[i].position.x > 1.0) {
-			boids[i].position.x = boids[i].position.x - 1.0;
-		}
-		if(boids[i].position.y > 1.0) {
-			boids[i].position.y = boids[i].position.y - 1.0;
-		}
-		if(boids[i].position.z > 1.0) {
-			boids[i].position.z = boids[i].position.z - 1.0;
-		}
-		
-		//output data
-		if(outf){
-			ofData << ind++ << "," << i << " "
-			<< boids[i].position.x * 2.0 - 1.0 << " "
-			<< boids[i].position.y * 2.0 - 1.0 << " "
-			<< boids[i].position.z * 2.0 - 1.0 << " ";
-			if(boids[i].live){
-				ofData << 0;
-			}else{
-				ofData << 1;
-			}
-			ofData << ";\n";
-			if(stopPeriod && ind==10000){
-				exit(0);
-			}
-		}
-		
-	}
-	glutPostRedisplay();
+    update_boids();
+    glutPostRedisplay();
 }
 
 void display(void)
@@ -201,19 +207,29 @@ void reshape(int w, int h)
 	
 	glLoadIdentity();
 	gluPerspective(30.0, (double)w / (double)h, 1.0, 100.0);
-	gluLookAt(1.2, -1.7, 1.7, 0.3, 0.7, 0.0, 0.0, 0.0, 1.0);
+	gluLookAt(1.2, -1.7, 1.7,
+              0.3, 0.7, 0.0,
+              0.0, 0.0, 1.0);
 }
 
 void mouse(int button, int state, int x, int y)
 {
 	switch (button) {
 		case GLUT_LEFT_BUTTON:
+            if (state == GLUT_DOWN) {
+                dragMouseL = 1;
+            }else if (state == GLUT_UP) {
+                dragMouseL = 0;
+            }
+                      
 			break;
 		case GLUT_RIGHT_BUTTON:
 			break;
 		default:
 			break;
 	}
+    lastMouseX = x;
+    lastMouseY = y;
 }
 
 void keyboard(unsigned char key, int x, int y)
@@ -229,6 +245,25 @@ void keyboard(unsigned char key, int x, int y)
 	}
 }
 
+void  mousemove( int mx, int my )
+{
+    if ( dragMouseL == 1 ) {
+        float deltaRotZ = ( mx - lastMouseX ) * 1.0;
+        float deltaRotX = ( my - lastMouseY ) * 1.0;
+        glMatrixMode( GL_MODELVIEW );
+        glTranslatef(0.5, 0.5, 0.5 );
+        glRotatef( deltaRotZ, 0.,  0.,  1. );
+        //glRotatef( deltaRotZ, -1.53,  4.08,  6.57 );
+        //glRotatef( deltaRotX, 2.4,  0.9, -0. );
+        glTranslatef(-0.5, -0.5, -0.5);
+    }
+    
+    lastMouseX = mx;
+    lastMouseY = my;
+    glutPostRedisplay();
+}
+
+
 void init(void)
 {
 	ofData.open(dataFileName.c_str());
@@ -236,36 +271,47 @@ void init(void)
 
 	ofParam
 	<< "N = " << N << "\n"
-	<< "SIGHTDISTANCE = " << SIGHTDISTANCE << "\n"
-	<< "SIGHTANGLE = " << SIGHTANGLE << "\n"
-	<< "separationF = " << separationF << "\n"
-	<< "cohesionF = " << cohesionF << "\n"
-	<< "alignmentF = " << alignmentF << "\n"
-	<< "preyF = " << preyF << "\n"
+    
+	<< "#Separation" << "\n"
+    << "force: " << COEFF_SEPARATION << "\n"
+    << "area distance: " << SIGHT_DISTANCE_SEPARATION << "\n"
+    << "area angle: " << SIGHT_ANGLE_SEPARATION << "\n"
+    
+    << "#Alignment" << "\n"
+    << "force: " << COEFF_ALIGNMENT << "\n"
+    << "area distance: " << SIGHT_DISTANCE_ALIGNMENT << "\n"
+    << "area angle: " << SIGHT_ANGLE_ALIGNMENT << "\n"
+    
+    << "#Cohesion" << "\n"
+    << "force: " << COEFF_COHESION << "\n"
+    << "area distance: " << SIGHT_DISTANCE_COHESION << "\n"
+    << "area angle: " << SIGHT_ANGLE_COHESION << "\n"
+	
+    << "preyF = " << preyF << "\n"
 	<< "toLiveMin = " << toLiveMin << "\n"
 	<< "toLiveMax = " << toLiveMax << "\n"
-	<< "INIT_VEL = " << INIT_VEL << "\n"
-	<< "MAX_VEL = " << MAX_VEL << "\n"
-	<< "CHANGE_PREY = " << CHANGE_PREY << "\n"
+
+    << "#Velocity" << "\n"
+	<< "min: " << MIN_VELOCITY << "\n"
+	<< "max: " << MAX_VELOCITY << "\n"
+	
+    << "CHANGE_PREY = " << CHANGE_PREY << "\n"
 	<< "outputStep = " << outputStep << "\n"
 	<< "exitStep = " << exitStep << "\n"
 	<< "stopPeriod = " << stopPeriod << "\n"
 	<< "PREY = " << PREY << "\n"
 	<< "realTime = " << realTime << "\n";
 
-	glClearColor(1.0, 1.0, 1.0, 1.0);
-	
+    glClearColor(1.0, 1.0, 1.0, 1.0);
+    srand(12345);
 	for(int i=0; i<N; i++){
-//		boids[i].position.x = (double)rand()/(double)RAND_MAX;
-//		boids[i].position.y = (double)rand()/(double)RAND_MAX;
-//		boids[i].position.z = (double)rand()/(double)RAND_MAX;
-        boids[i].position.y = 0;
-        boids[i].position.z = 0;
-        boids[i].position.x = (double)rand()/(double)RAND_MAX/7.;
-
-		boids[i].velocity.x = ( (double)rand()*2.0/(double)RAND_MAX - 1.0 ) * INIT_VEL;
-		boids[i].velocity.y = ( (double)rand()*2.0/(double)RAND_MAX - 1.0 ) * INIT_VEL;
-		boids[i].velocity.z = ( (double)rand()*2.0/(double)RAND_MAX - 1.0 ) * INIT_VEL;
+        boids[i].position.x = drand48()*0.1 + FIELD_SIZE/2.;
+        boids[i].position.y = drand48()*0.1 + FIELD_SIZE/2.;
+        boids[i].position.z = 0.;
+        
+        boids[i].velocity.x = 0.01; //( drand48()*2.0 - 1.0 ) * (MAX_VELOCITY - MIN_VELOCITY) + MIN_VELOCITY;
+        boids[i].velocity.y = 0.; //( drand48()*2.0 - 1.0 ) * (MAX_VELOCITY - MIN_VELOCITY) + MIN_VELOCITY;
+        boids[i].velocity.z = 0.; //( drand48()*2.0 - 1.0 ) * (MAX_VELOCITY - MIN_VELOCITY) + MIN_VELOCITY;
 	}
 }
 
@@ -279,8 +325,9 @@ int main(int argc, char *argv[])
 	glutReshapeFunc(reshape);
 	glutIdleFunc(idle);
 	glutMouseFunc(mouse);
+    glutMotionFunc(mousemove);
 	glutKeyboardFunc(keyboard);
-	init();
+    init();
 	glutMainLoop();
 	return 0;
 }

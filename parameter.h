@@ -14,23 +14,31 @@
 const std::string dataFileName("test_data.txt");
 const std::string paramFileName("test_param.txt");
 
-const int N = 256;
+//const int N = 256;
+const int N = 32*32;
 
-const float SIGHTDISTANCE = 100;
-const float SIGHTANGLE = 0.17;
+const double FIELD_SIZE = 1.0;
 
-const double separationF = 0.000001; // 10^-4
-const double cohesionF = 0.0005; // 3x 10^-4
-const double alignmentF = 0.001; // 10^-4
+const double SIGHT_DISTANCE_SEPARATION = 0.004;
+const double SIGHT_DISTANCE_ALIGNMENT = 0.007;
+const double SIGHT_DISTANCE_COHESION = 0.007;
+const double SIGHT_ANGLE_SEPARATION = 1.0;
+const double SIGHT_ANGLE_ALIGNMENT = 1.0;
+const double SIGHT_ANGLE_COHESION = 1.0;
+
+const double COEFF_SEPARATION = 0.0; // 10^-4
+const double COEFF_COHESION = 0.15; // 3x 10^-4
+const double COEFF_ALIGNMENT = 0.0; // 10^-4
 
 const double preyF = 0.000002;
 
 const int toLiveMin = 10; //if( toLiveMin <= seeing boids <= toLiveMax )
 const int toLiveMax = 25; //the boid tweet
 
-const double INIT_VEL = 0.001;
-const double MAX_VEL = 0.005;
+const double MIN_VELOCITY = 0.01;
+const double MAX_VELOCITY = 0.01;
 
+const bool LOGGING = false;
 const int CHANGE_PREY = 3000; //step
 const int outputStep = 50;
 const int exitStep = 5000; //step, when only the next param is true, it's work.
