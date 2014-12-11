@@ -17,26 +17,50 @@ const std::string paramFileName("test_param.txt");
 //const int N = 256;
 const int N = 32*32;
 
-const double FIELD_SIZE = 1.0;
-
+const double FIELD_SIZE = 2.0;
+/*
 const double SIGHT_DISTANCE_SEPARATION = 0.04;
 const double SIGHT_DISTANCE_ALIGNMENT = 0.07;
 const double SIGHT_DISTANCE_COHESION = 0.07;
 const double SIGHT_ANGLE_SEPARATION = 1.0;
 const double SIGHT_ANGLE_ALIGNMENT = 1.0;
 const double SIGHT_ANGLE_COHESION = 1.0;
-
 const double COEFF_SEPARATION = 0.15; // 10^-4
 const double COEFF_COHESION = 0.; // 3x 10^-4
 const double COEFF_ALIGNMENT = 0.; // 10^-4
+const double MIN_VELOCITY = 0.01;
+const double MAX_VELOCITY = 0.01;
+*/
+/*
+const double SIGHT_DISTANCE_SEPARATION = .005;
+const double SIGHT_DISTANCE_ALIGNMENT = .05;
+const double SIGHT_DISTANCE_COHESION = .05;
+const double SIGHT_ANGLE_SEPARATION = .5;
+const double SIGHT_ANGLE_ALIGNMENT = .5;
+const double SIGHT_ANGLE_COHESION = .5;
+const double COEFF_SEPARATION = 0.01;
+const double COEFF_COHESION = 0.01;
+const double COEFF_ALIGNMENT = 0.05;
+const double MIN_VELOCITY = 0.01;
+const double MAX_VELOCITY = 0.01;
+*/
+
+const double SIGHT_DISTANCE_SEPARATION = .005;
+const double SIGHT_DISTANCE_ALIGNMENT = .05;
+const double SIGHT_DISTANCE_COHESION = .05;
+const double SIGHT_ANGLE_SEPARATION = .5;
+const double SIGHT_ANGLE_ALIGNMENT = .5;
+const double SIGHT_ANGLE_COHESION = .5;
+const double COEFF_SEPARATION = 0.01;
+const double COEFF_COHESION = 0.01;
+const double COEFF_ALIGNMENT = 0.05;
+const double MIN_VELOCITY = 0.01;
+const double MAX_VELOCITY = 0.01;
 
 const double preyF = 0.000002;
 
 const int toLiveMin = 10; //if( toLiveMin <= seeing boids <= toLiveMax )
 const int toLiveMax = 25; //the boid tweet
-
-const double MIN_VELOCITY = 0.01;
-const double MAX_VELOCITY = 0.01;
 
 const bool LOGGING = false;
 const int CHANGE_PREY = 3000; //step

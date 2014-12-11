@@ -310,13 +310,26 @@ void init(void)
     glClearColor(1.0, 1.0, 1.0, 1.0);
     srand(12345);
 	for(int i=0; i<N; i++){
+        //Initialization
+        /*
+        //for test
         boids[i].position.x = drand48()*0.2 - 0.1 + FIELD_SIZE/2.;
         boids[i].position.y = drand48()*0.2 - 0.1 + FIELD_SIZE/2.;
         boids[i].position.z = 0.;
-        
         boids[i].velocity.x = 0.001; //( drand48()*2.0 - 1.0 ) * (MAX_VELOCITY - MIN_VELOCITY) + MIN_VELOCITY;
         boids[i].velocity.y = 0.; //( drand48()*2.0 - 1.0 ) * (MAX_VELOCITY - MIN_VELOCITY) + MIN_VELOCITY;
         boids[i].velocity.z = 0.; //( drand48()*2.0 - 1.0 ) * (MAX_VELOCITY - MIN_VELOCITY) + MIN_VELOCITY;
+         */
+        //random
+        boids[i].position.x = drand48()*FIELD_SIZE;
+        boids[i].position.y = drand48()*FIELD_SIZE;
+        boids[i].position.z = drand48()*FIELD_SIZE;
+        double v = drand48() * (MAX_VELOCITY - MIN_VELOCITY) + MIN_VELOCITY;
+        double th1 = drand48() * PI;
+        double th2 = drand48() * 2.0 * PI;
+        boids[i].velocity.x = v * sin(th1) * cos(th2);
+        boids[i].velocity.y = v * sin(th1) * sin(th2);
+        boids[i].velocity.z = v * cos(th1);
 	}
 }
 
