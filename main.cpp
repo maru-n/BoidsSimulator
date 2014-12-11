@@ -78,9 +78,6 @@ void update_boids()
     }
     
     for(int i=0; i<N; i++) {
-        if (dv[i].z != 0) {
-            printf("test");
-        }
         boids[i].velocity += dv[i];
         /*
         if(PREY){
