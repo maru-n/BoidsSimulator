@@ -73,7 +73,6 @@ void Boid::draw() {
 
 bool Boid::isInsideArea(Boid _b, double _sighe_distance, double _sight_angle) {
 	if( ( (*this).position - _b.position ).getAbs() < _sighe_distance ){
-        return true;
 		Vector3D sightVec = (*this).velocity;
         Vector3D relativePos = _b.position - (*this).position;
         double th = acos((sightVec * relativePos) / (sightVec.getAbs() * relativePos.getAbs()));
