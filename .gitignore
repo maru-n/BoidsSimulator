@@ -1,4 +1,4 @@
-*.xcuserstate
-Main.xcscheme
-xcschememanagement.plist
-*.xcbkptlist
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata
+.DS_Store
