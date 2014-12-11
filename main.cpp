@@ -162,11 +162,11 @@ void display(void)
 	
 	glColor3d(0.0, 0.0, 0.0);
 	glBegin(GL_LINES);
-	for(float i=0; i<=1.1; i+=0.1){
+	for(float i=0; i<=FIELD_SIZE+0.1; i+=0.1){
 		glVertex3f(0.0, i, 0);
-		glVertex3f(1.0, i, 0);
+		glVertex3f(FIELD_SIZE, i, 0);
 		glVertex3f(i, 0.0, 0);
-		glVertex3f(i, 1.0, 0);
+		glVertex3f(i, FIELD_SIZE, 0);
 	}
 //	glColor3d(1.0, 0.0, 0.0);
 //	glVertex3f(0.0, 0.0, 0.0);
@@ -212,9 +212,9 @@ void reshape(int w, int h)
 	
 	glLoadIdentity();
 	gluPerspective(30.0, (double)w / (double)h, 1.0, 100.0);
-	gluLookAt(1.2, -1.7, 1.7,
-              0.3, 0.7, 0.0,
-              0.0, 0.0, 1.0);
+	gluLookAt(1.2*FIELD_SIZE, -1.7*FIELD_SIZE, 1.7*FIELD_SIZE,
+              0.3*FIELD_SIZE,  0.7*FIELD_SIZE, 0.0*FIELD_SIZE,
+              0.0*FIELD_SIZE,  0.0*FIELD_SIZE, 1.0*FIELD_SIZE);
 }
 
 void mouse(int button, int state, int x, int y)
@@ -256,11 +256,11 @@ void  mousemove( int mx, int my )
         float deltaRotZ = ( mx - lastMouseX ) * 1.0;
         float deltaRotX = ( my - lastMouseY ) * 1.0;
         glMatrixMode( GL_MODELVIEW );
-        glTranslatef(0.5, 0.5, 0.5 );
+        glTranslatef(0.5*FIELD_SIZE, 0.5*FIELD_SIZE, 0.5*FIELD_SIZE );
         glRotatef( deltaRotZ, 0.,  0.,  1. );
         //glRotatef( deltaRotZ, -1.53,  4.08,  6.57 );
         //glRotatef( deltaRotX, 2.4,  0.9, -0. );
-        glTranslatef(-0.5, -0.5, -0.5);
+        glTranslatef(-0.5*FIELD_SIZE, -0.5*FIELD_SIZE, -0.5*FIELD_SIZE);
     }
     
     lastMouseX = mx;
