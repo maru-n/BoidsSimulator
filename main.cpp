@@ -59,7 +59,7 @@ void update_boids()
                     dv_sep += (boids[i].position - boids[j].position).getUnity();
                 }
                 // Alignment
-                if (boids[j].isInsideAlignmentArea(boids[j])) {
+                if (boids[i].isInsideAlignmentArea(boids[j])) {
                     neivers_num_ali ++;
                     dv_ali += boids[j].velocity;
                 }
